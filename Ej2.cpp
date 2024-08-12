@@ -1,9 +1,20 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main(){
 
-    cout << "Examen Final Prog 3" << endl;
+    //factorial
 
-    return 0;
+    int n, prod=1;
+
+    cout<<"Ingrese un numero que desee calcular su factorial: "<<endl;
+    cin>>n;
+
+    for(int i=1; i<=n; i++){
+        prod=prod*i;
+    }
+
+
+    cout<<"El factorial del numero "<<n<<" es: "<<prod<<endl;
+    
 }
